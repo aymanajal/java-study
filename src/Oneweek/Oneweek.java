@@ -17,6 +17,13 @@ public class Oneweek {
         //     System.out.println(amount + "-" + a + "=" + (amount-a));
         // }
         // 1.3 浮点数计算
-        
+        int foot;
+        double inch;
+        Scanner in = new Scanner(System.in);
+        foot = in.nextInt();
+        inch = in.nextInt();
+        System.out.println("foot"+foot+","+"inch"+inch);
+        //类型的转换
+        System.out.println((int)((foot+inch/12)*0.3048*100)); 
     }
 }
