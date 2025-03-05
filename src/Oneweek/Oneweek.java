@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Oneweek {
     public static void main(String[] args) {
+
         //1.2变量与计算
         // // System.out.println("Hello, World!");
         // try (Scanner in = new Scanner(System.in)) {
@@ -25,5 +26,9 @@ public class Oneweek {
         System.out.println("foot"+foot+","+"inch"+inch);
         //类型的转换
         System.out.println((int)((foot+inch/12)*0.3048*100)); 
+        //oneweek作业
+        Scanner in = new Scanner(System.in);
+        int f = in.nextInt();
+        System.out.println((int)((f-32)*5/9));
     }
 }
